@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from "./redux/store";
-import { addTodo, completeTodo, showComplete } from "./redux/actions";
-import ReduxContext from './contexts/ReduxContext';
 import { Provider } from "react-redux";
 
 // // store의 상태가 변경되면 안에 있는 함수가 호출 
